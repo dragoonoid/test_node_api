@@ -7,7 +7,7 @@ const app=express();
 
 
 app.get('/',(req,res)=>{
-    res.status(200).send({message:"Home Page"})
+    res.status(200).send({message:"Home Ppage"})
 })
 app.get('/about',(req,res)=>{
     res.status(200).send("About Page")
